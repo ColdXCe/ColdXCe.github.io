@@ -14,7 +14,7 @@ a:hover{
   background-color: rgb(255,255,255);
 }
 
-#rcorners4 {
+box {
   border-radius: 15px;
   background: rgb(15,15,15);
   padding: 200px; 
