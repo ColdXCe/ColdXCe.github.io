@@ -8,7 +8,7 @@ body {
 
     text-align: start;
 
-    background: rgb(37, 38, 38);
+    background: rgb(0,0, 0);
 
     font-family: 'Mochiy Pop One','PT Sans Caption', sans-serif;
 
@@ -52,7 +52,7 @@ h1 {
 
     padding: 0;
 
-    background-color: rgb(37, 38, 38);
+    background-color: rgb(0,0,0);
 
     overflow: hidden;
 
@@ -106,13 +106,13 @@ li.nav-item a:hover {
 
 
 
-img{
+box{
 
   width: 280px;
 
   height: 280px;
 
-  background-color: white;
+  background-color: rgba(37,38,38,0.5);
 
   color: white;
 
@@ -124,8 +124,28 @@ img{
 
   align-items: center;
 
+  position: relative;
+
+  border: solid 1px white;
+
   border-radius: 50px;
 
-  box-shadow: 16px 16px 16px rgba(0,0,0,0.5); 
+  box-shadow: 16px 16px 16px rgba(37,38,38,0.5);
+
+  top: 1;
+
+  right: 1;
+
+}
+
+
+
+img{
+
+  width: 250px;
+
+  height: 250px;
+
+  border-radius: 50px;
 
 }
