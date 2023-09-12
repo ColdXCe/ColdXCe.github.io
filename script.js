@@ -8,3 +8,11 @@ modeToggle.addEventListener("change", () => {
         body.classList.remove("dark-mode");
     }
 });
+
+function onNotify() {
+  console.log(NOTIFY INIT);
+  //check Notification API have permission or not
+  if (Notification?.permission === 'granted') {
+    new Notification('Hi')
+  }
+}
